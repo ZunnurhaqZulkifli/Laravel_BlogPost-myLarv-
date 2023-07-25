@@ -100,7 +100,7 @@ class UserController extends Controller
     public function update(UpdateUser $request, User $user)
     {
         if ($request->hasFile('avatar')) {
-            $path = $request->file('avatar')->store('avatars');
+            $path = $request->file('avatar')->store('image.avatar');
             
             if ($user->image) {
                 $user->image->path = $path;

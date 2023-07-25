@@ -51,7 +51,8 @@
                     @else
                         <a href="{{ route('posts.edit', ['post' => $post->id]) }}" class="text-center mb-2 mt-2"> edit to
                             add
-                            images </a>
+                            images 
+                        </a>
                     @endif
 
                     @commentList(['comments' => $post->comments])

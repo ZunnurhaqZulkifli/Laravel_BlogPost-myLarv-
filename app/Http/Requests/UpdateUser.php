@@ -26,7 +26,7 @@ class UpdateUser extends FormRequest
     public function rules()
     {
         return [
-            'avatar' => 'image|mimes:jpg,jpeg,png,gif,svg|max:2048|dimensions:height=128,width=128',
+            'avatar' => 'image|mimes:jpg,jpeg,png,gif,svg|max:2048',
             'locale' => [
                 'required',
                 Rule::in(array_keys(User::LOCALES))
