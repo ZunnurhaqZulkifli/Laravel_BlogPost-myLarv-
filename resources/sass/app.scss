@@ -1,0 +1,144 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+:root {
+    --bs-orange-rgb: 255, 69, 0;
+    --bs-zunnur-rgb: 113, 0, 255;
+}
+
+.avatar {
+    width: 128px;
+    height: 128px;
+    border: 1px solid #ccc;
+}
+
+ .bg-orange {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-orange-rgb), var(--bs-bg-opacity)) !important;
+ }
+
+  .bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+  }
+  
+  .border-opacity-0 {
+    border-color: transparent !important;
+  }
+
+  .fs-6 {
+    font-size: 0.9rem !important;
+  }
+  
+  .fs-7 {
+    font-size: 0.75rem !important;
+  }
+  
+  .fs-8 {
+    font-size: 0.35rem !important;
+  }
+
+  .mb-1zr {
+    margin-bottom: 0.35rem !important;
+  }
+
+  .border-lime {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-lime-rgb), var(--bs-border-opacity)) !important;
+  }
+  
+  .border-orange {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-orange-rgb), var(--bs-border-opacity)) !important;
+  }
+  
+  .border-redmode {
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-redmode-rgb), var(--bs-border-opacity)) !important;
+  }
+
+  .text-zunnur {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-zunnur-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .text-orange {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-orange-rgb), var(--bs-text-opacity)) !important;
+  }
+  
+  .text-lime {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-lime-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .btn-outline-zunnur {
+    --bs-btn-color: #7100ff;
+    --bs-btn-border-color: #7100ff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5600c2;
+    
+  }
+  
+  .btn-outline-lime {
+    --bs-btn-color: #c9ee24;
+    --bs-btn-border-color: #e7ff7a;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d0ff00;
+    
+  }
+
+ .btn-smz, .btn-group-smz > .btn {
+    --bs-btn-padding-y: 0.05rem;
+    --bs-btn-padding-x: 0.2rem;
+    --bs-btn-font-size: 0.550rem;
+    --bs-btn-border-radius: 0.20rem;
+  }
+  
+  .card-zunnur {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --card-border-width: 2px;
+    --bs-card-background-color:var(--bs-orange-rgb);
+    height:21rem;
+    width: 12rem; 
+    border-color: rgba(var(--bs-orange-rgb)) !important;
+    border-radius: var(--bs-card-border-radius);
+
+  }
+
+  .card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+  }

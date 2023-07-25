@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.automationProfile.windows": {
+    
+    },
+    "terminal.integrated.automationProfile.osx": {},
+    "terminal.integrated.autoReplies": {
+        
+    },
+    "git.ignoreLimitWarning": true
+}
